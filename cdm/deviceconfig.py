@@ -1,7 +1,7 @@
 import os
 
-device_android_generic = {
-    'name': 'android_generic',
+amlogic = {
+    'name': '2646158291',
     'description': 'android studio cdm',
     'security_level': 3,
     'session_id_type': 'android',
@@ -10,7 +10,7 @@ device_android_generic = {
     'send_key_control_nonce': True
 }
 
-devices_available = [device_android_generic]
+devices_available = [amlogic]
 
 FILES_FOLDER = 'devices'
 
